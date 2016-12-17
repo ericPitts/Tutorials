@@ -12,25 +12,25 @@ object  VariousOps extends App {
   val b: Int = scala.io.StdIn.readInt()
 
   def add(n: Int, m: Int): Int ={
-    a + b
+    n + m
   }
   def sub(n: Int, m: Int): Int ={
-    a - b
+     n - m
   }
   def mul(n: Int, m: Int): Int ={
-    a * b
+    n * m
   }
   def div(n: Int, m: Int): Int ={
-    a / b
+    n / m
   }
   def mod(n: Int, m: Int): Int ={
-    a % b
+    n % m
   }
 
   println(" The first number added to the second number equals --- " +
     add(a,b))
   println(" The second number subtracted from the first number equals --- " +
-    sub(a, b))
+    sub(a,b))
   println(" The first number multiplied by the second number equals --- " +
     mul(a,b))
   println(" The first number divided by the second number equals --- " +
