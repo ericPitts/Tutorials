@@ -1,7 +1,20 @@
 
-import com.basicExercises.hello.VariousOps
-val a = VariousOps.add(1,5)
 
-// need to check why
+
+import com.basicExercises.hello.VariousOps._
+
+
+
+add(6,2)
+sub(6,2)
+mul(6,2)
+div(6,2)
+
+
+
+
+
+
+
 
 
