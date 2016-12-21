@@ -1,20 +1,14 @@
+import com.oneHundredDoors.Door
+
+import scala.collection.mutable.ListBuffer
+
+val ids = new ListBuffer[Door]
+for(i <- 1 to 10)
+  ids += new Door(1)
 
 
+val a = ids.toList
 
-import com.basicExercises.hello.VariousOps._
-
-
-
-add(6,2)
-sub(6,2)
-mul(6,2)
-div(6,2)
-
-
-
-
-
-
-
+val ab = a(9)
 
 
